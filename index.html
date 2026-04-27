@@ -211,7 +211,7 @@
 
     </style>
 </head>
-<>
+<body>
 
     <div class="flower-wrapper">
         <div class="flower-container" style="--base-transform: scale(0.8) rotate(-10deg);">
@@ -274,9 +274,9 @@
         // Khi nhấp vào bông hoa ở giữa
         middleFlower.addEventListener('click', function() {
             birthdayOverlay.classList.add('active');
-        });
+
             document.getElementById('bg-music').play(); 
-        
+        });
         closeFrame.addEventListener('click', function() {
             birthdayOverlay.classList.remove('active');
         
@@ -293,6 +293,6 @@
             }
         });
     </script>
-<audio id="bg-music" src="Ở Trong Khu Rừng (Cảm Ơn Người Đã Thức Cùng Tôi Original Soundtrack).mp3" loop></audio>
+<audio id="bg-music" src="nhac-nen.mp3" loop></audio>
 </body>
 </html>
